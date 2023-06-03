@@ -1,0 +1,40 @@
+h1{
+text-align: center;
+width: 800px;
+}
+.maincontainer{
+width: 800px;
+height: 700px;
+background-color: rgba(226, 237, 212, 0.946);
+display: flex;
+flex-wrap: wrap;
+margin-left: 0px;
+justify-content:center;
+
+}
+
+.topcontainer{
+width: 800px;
+background-color: rgb(33, 187, 238);
+display: flex;
+justify-content: space-evenly;
+margin: 10px ;
+}
+
+.middlecontainer{
+width: 800px;
+background-color: rgb(217, 134, 231);
+display: flex;
+display: flex;
+justify-content: space-evenly;
+padding: 10px;
+margin: 10px;
+}
+
+.bottoncontainer{
+width: 800px;
+background-color:white;
+display: flex ;
+justify-content: space-evenly;
+margin: 10px;
+}
