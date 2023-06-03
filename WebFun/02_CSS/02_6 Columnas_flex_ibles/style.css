@@ -4,7 +4,25 @@ display: flex;
 justify-content: space-between;
 }
 
-.col{
+.col, .col-2, .col-3 {
+margin: 10px;
+padding: 10px;
+background-color: cadetblue;
+flex: 1;
+}
+
+.col-2{
+    flex: 2;
+    
+}
+
+.col-3{
+    flex: 3;
+}
+
+/* este codigo comentado fue el intento que hi ce solo , lo de arriba vi la revision de coding dojo */
+
+/* .col{
 flex:6;
 width: 150px;
 background-color: rgb(10, 153, 77);
@@ -34,4 +52,4 @@ border: 4px black;
 padding: 15px;
 margin: 10px;
 }
-    
+     */
