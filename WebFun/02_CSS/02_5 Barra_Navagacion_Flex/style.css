@@ -1,0 +1,51 @@
+
+.container{
+background-color: black;
+width: 1140px;
+color: white;
+display: flex;
+justify-content: flex-end;
+align-items: baseline;
+
+}
+.profile{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-right: 450px;
+}
+
+.home{
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgba(255, 255, 255, 0.436);
+padding: 10px;
+justify-content: flex-end;
+
+}
+.myprofile{
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+padding: 10px;
+    }
+
+.findconnections{
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgba(255, 255, 255, 0.436);
+padding: 10px;
+    }
+
+button{
+border: 20px;
+width: 150px;
+height: 30px;
+font-size: 25px;
+background-color: aqua;
+color: white;
+margin-top: 5px;
+margin-right: 10px;
+box-shadow: 5px 5px blue;
+        }        
