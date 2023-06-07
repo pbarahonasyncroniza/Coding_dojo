@@ -2,8 +2,7 @@
 background-color: rgb(246, 240, 232);
 width: 600px;
 height: 300px;
-/* display: flex; */
-/* flex-wrap: wrap; */
+
 }
 .profileimg{
 position: absolute;
@@ -15,18 +14,16 @@ margin-left: 20px;
 .name{
 margin-top: 40px;
 margin-left: 15px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: roboto;
 font-size: 30px;
 font-weight: bold;
 }
 
 .topcontainer{
-background-color: rgba(55, 227, 189, 0.767);
+background-color: #17a2b8;
 width: 600px;
 height: 70px;
-/* position: absolute; */
-/* top: 150px; */
-/* display: flex; */
+
 }
 
 .location{
@@ -37,6 +34,8 @@ align-items: baseline;
 justify-content: space-evenly;
 margin-left: 20px;
 margin-top: 0px;
+font-family: roboto;
+
 
     }
 
@@ -44,15 +43,15 @@ margin-top: 0px;
 width: 350px;
 height: 50px;
 margin-left: 15px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: roboto;
 font-size: 15px;
 margin-top: 40px;
 }
 
 .editprofile{
-/* background-color: rgb(0, 255, 26); */
 width: 100px;
 margin-left: 15px;
 display: flex;
 justify-content: space-evenly;
+font-family: roboto;
 }
