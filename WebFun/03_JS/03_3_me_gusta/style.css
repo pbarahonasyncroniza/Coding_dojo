@@ -1,0 +1,104 @@
+/* ...... normalizacion...... */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+
+}
+
+/* ...... main -conteiner.....( nota forma de dejar el contendor centrado) */
+.main-container-1{
+    /* display: flex; */
+    border: 6px solid black;
+    width: 600px;
+    height: 400px;
+    /* height: 300px; */
+    margin:auto;
+    /* margin: 0px 50px 0px 50px ; */
+
+}
+
+/* ...... top - main -container 2 (21-22)....... */
+.top-main-container-2{
+display: flex;
+flex-direction: column;
+margin: 0px 50px 10px 50px;
+}
+
+.header-21{
+    background-color: black;
+    color: #ffff;
+    
+}
+
+.header-22{
+    text-align: center;
+}
+
+
+
+/* ...... botton - main - container ..... */
+
+.botton-main-container-3{
+display: flex;
+margin: 20px 80px 20px 80px;
+height: 200px;
+
+
+
+
+}
+
+.side-container-31{
+    border: 4px solid black;
+    flex-direction: column;
+    display: flex;
+
+
+}
+
+.img-avatar-312{
+    height: 60px;
+    margin: 10px 30px 10px 30px ;
+}
+
+/* ...... right - side -container...... */
+.side-right-container-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: px 10px 10px 10px;
+
+
+}
+
+.side-container-41, .side-container-42, .side-container-43 {
+    /* display: flex; */
+    border: 3px solid black;
+    margin: 10px 10px 10px 10px ;
+}
+
+
+
+.sub-side-container-412, .sub-side-container-422, .sub-side-container-432{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.someuser{
+    font-size: 20px;
+}
+
+.button{
+    border: 4px solid black;
+    background-color: yellow;
+    box-shadow: 5px 5px black;
+    width: 60px;
+}
