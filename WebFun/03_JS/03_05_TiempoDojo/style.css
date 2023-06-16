@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.main-conteiner1{
+    /* outline: 2px solid red; */
+    /* display: flex; */
+    background-color: #ffff;
+    width: 600px;
+    height: 600px;
+    margin:auto;
+}
+
+.header2 >{
+
+    display: flex;
+    justify-content:center ;
+    background-color: #9Fc6F8;
+    flex-direction: column;
+
+}
+
+.top-header-21{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #9Fc6F8;
+    color: #ffffff;
+    margin: 10px 0px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#cityBurbank{
+    cursor:pointer;
+    font-size: 30px;
+    color: black;
+
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.botton-header-22{
+    display: flex;
+    background-color: #ffffff;
+    color: #ffff;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+
+.city{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.show_temp{
+    color: black;
+
+}
+
+.#temperature{
+
+}
+
+.hz-line{
+    border-top: 2px solid black;
+    margin-top: 20px;
+}
+
+/* ...... main-content-3 */
+.main-content-3{
+    margin: 40px ;
+
+
+}
+
+/*  ......subcontent-4 */
+.sub-content-4{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px 40px 40px 40px;
+    
+
+
+
+}
+
+/* ....content..... */
+.content-411{
+    
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    background-color: #eeeeee;
+
+    
+
+}
+
+.content-412{
+margin: 20px 20px 20px 20px;
+background-color: #eeeeee;
+
+}
+
+
+.content-413{
+
+    margin: 20px 20px 20px 20px;
+    background-color: #eeeeee;
+}
+
+
+
+
+
+.content-414{
+    
+    margin-top: 20px;
+    margin: 20px 20px 20px 20px;
+    background-color: #eeeeee;
+
+
+}
+
+.somerain{
+  /* background-color: ; */
+    height: 80px;
+    border-radius: 100%;
+    margin: 20px 5px 20px 5px;
+}
+
+/* ......Footer..... */
+.footer-5{
+background-color: #eeeeee;
+display: flex;
+justify-content: space-between;
+border: 4px solid black;
+
+}
+#accept{
+width: 80px;
+height: 30px;
+background-color: #9Fc6F8;
+margin: 20px 20px 20px 20px;
+box-shadow: 5px 5px black;
+}

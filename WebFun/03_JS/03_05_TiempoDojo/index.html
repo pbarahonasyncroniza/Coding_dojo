@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scrip.js"></script>
+    <title>Tiempo Dojo</title>
+</head>
+<body>
+    <!-- ......main-content-1 -->
+    <div class="main-conteiner1">
+        <!-- ......header-2........ -->
+        <div class="header2">
+            <div class="top-header-21">
+                <span class="logo">DojoWeather</span>
+                <span onclick="burbankCity(this)" id="cityBurbank(this)">Burbank</span>
+                <span onclick="chicagoCity(this)" id="cityChicago">Chicago</span>
+                <span onclick="dallasCity(this)" id="dallasCity">Dallas</span>
+            </div>
+
+            <div class="botton-header-22">
+                <span class="city">San Jose </span>
+                <form >
+                <label class="show_temp">Show temperature in</label>
+                <select name="temperature-scale" onchange="convert(this)" >
+                    <option value="Celcius">C</option>
+                    <option value="Ferenheit">F</option>
+                </form>
+                </select>
+               
+            </div>
+            <hr class="hz-line">
+        </div>
+
+        <!-- ..........  main-content-3  ......... -->
+        <div class="main-content-3">
+            <div class="sub-content-4">
+                <div class="content-411">
+                    <h3>Today</h3>
+                    <img src="assets/some_rain.png" alt="somerain" class="somerain">
+                    <h4>some rain</h4>
+                    <span id="temp1">24</span>
+                    <span id="temp2"> 18</span>
+                </div>
+                <div class="content-412">
+                    <h3>Tomorrow</h3>
+                    <img src="assets/some_sun.png" alt="somesun" class="somerain">
+                    <h4>some rain</h4>
+                    <span id="temp3">27</span>
+                    <span id="temp4"> 19</span>
+                </div>
+
+                <div class="content-413">
+                    <h3>Friday</h3>
+                    <img src="assets/some_clouds.png" alt="someclous" class="somerain">
+                    <h4>some rain</h4>
+                    <span id="temp5">21</span>
+                    <span id="temp6"> 16</span>
+                </div>
+
+                <div class="content-414">
+                    <h3>Saturday</h3>
+                    <img src="assets/some_sun.png" alt="somerain" class="somerain">
+                    <h4>some rain</h4>
+                    <span id="temp7">24</span>
+                    <span id="temp8"> 18</span>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <!-- ......footer-5 -->
+        <div id="footer5">
+            <div class="fotter-51">
+                <img src="assets/cookie.png" alt="">
+            </div>
+            <div class="fotter-52">
+                <h3>Stop! Cookies time</h3>
+                <h5>We use cookies (sadly not de adible ones) to personalize <br>
+                     copntent and adds, to provide social media features and to <br>
+                       analyse out traffic</h5>read more...<a href="# Read more..."></a>
+            </div>
+            <div class="fotter-53">
+                <button id="accept" onclick="accepCookies(this)"  >I Accept</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
