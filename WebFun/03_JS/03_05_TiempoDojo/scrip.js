@@ -104,7 +104,7 @@ function convert(element){
         var tempSpan = document.querySelector ("#temp" + i);
         var tempVal = parseInt(tempSpan.innerHTML);
         if(element.value == "C"){
-            tempSpan.innerHTML = f2c(tempVal);
+            tempSpan.innerHTML = f2c(tempVal)+"";
         }else{
             tempSpan.innerHTML = c2f(tempVal);
         }
