@@ -1,0 +1,45 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.cursorBlinking": "expand",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.minimap.autohide": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "zenMode.hideActivityBar": true,
+    "screencastMode.mouseIndicatorSize": 25,
+    "terminal.integrated.profiles.osx": {
+        
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "editor.multiCursorModifier": "ctrlCmd"
+
+     
+    
+}
